@@ -5,8 +5,8 @@ let score           = 0;
 let sessionId       = null;
 let currentQuestion = null;
 let selectedIndex   = null;
-
-/// ── Helpers ───────────────────────────────────────────────────────────────────
+//test
+//// ── Helpers ───────────────────────────────────────────────────────────────────
 const show = (id) => document.getElementById(id).classList.remove('hidden');
 const hide = (id) => document.getElementById(id).classList.add('hidden');
 const el   = (id) => document.getElementById(id);
